@@ -20,5 +20,6 @@ public class ValidationTests {
     @Test
     public void test3(){
         System.out.println("another validation test3");
+        assert "softpost".equalsIgnoreCase(".org");
     }
 }
