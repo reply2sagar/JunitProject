@@ -25,7 +25,7 @@ public class ExternalResourceRuleTest {
     };
 
     @Test
-    public void testFoo() {
+    public void testDatabase() {
         cn.getData();
         System.out.println("Checking remote ftp server connection");
     }
