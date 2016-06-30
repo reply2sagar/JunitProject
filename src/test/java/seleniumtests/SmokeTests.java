@@ -10,4 +10,9 @@ public class SmokeTests extends BaseTest {
         driver.get("http://www.softpost.org");
         Assert.assertTrue(driver.getTitle().contains("Free Software Tutorials"));
     }
+
+    @Test
+    public void verifyNumber(){
+       Assert.assertTrue(2==2);
+    }
 }

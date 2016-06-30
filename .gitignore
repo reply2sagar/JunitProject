@@ -12,3 +12,4 @@ buildNumber.properties
 
 .idea/workspace.xml
 .idea/libraries/*.xml
+/.idea/libraries/
