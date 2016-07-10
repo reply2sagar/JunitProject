@@ -1,3 +1,4 @@
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,6 +12,8 @@ import java.util.Random;
 /**
  * Created by Sagar on 03-07-2016.
  */
+
+@Ignore
 public class BrowserStackTests {
 
     String Access_Key = "ScGsN3tZEGVAFCX8nCzq";

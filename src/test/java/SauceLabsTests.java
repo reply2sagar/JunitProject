@@ -1,3 +1,4 @@
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +11,7 @@ import java.net.URL;
 /**
  * Created by Sagar on 03-07-2016.
  */
+@Ignore
 public class SauceLabsTests {
 
     String Access_Key = "3fd40be9-add3-4a6c-b580-4622e9a76810";

@@ -1,8 +1,10 @@
 package seleniumtests;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
+@Ignore
 public class SmokeTests extends BaseTest {
 
     @Test
