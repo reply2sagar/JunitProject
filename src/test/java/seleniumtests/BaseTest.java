@@ -18,7 +18,7 @@ import rules.MyMethodRule;
 import java.io.File;
 
 public class BaseTest {
-    public WebDriver driver=new FirefoxDriver();;
+    public WebDriver driver=new FirefoxDriver();
 
     @Rule
     public MyMethodRule m = new MyMethodRule(driver);

@@ -27,17 +27,13 @@ public class MyMethodRule implements MethodRule {
                 try {
                     System.out.println("Executing method" + statement.toString());
                     statement.evaluate();
-
                 } catch (Throwable t) {
                     captureScreenshot(frameworkMethod.getName());
-
-                    throw t; // rethrow to allow the failure to be reported to JUnit
+                    throw t;
                 }finally {
                     driver.close();
                     driver.quit();
                 }
-
-
             }
 
             public void captureScreenshot(String fileName) {
