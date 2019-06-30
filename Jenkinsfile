@@ -20,7 +20,7 @@ pipeline {
        
         stage ('build'){
             steps {
-                echo 'build'
+                mvn compile 
             }
         }
         stage ('test'){
