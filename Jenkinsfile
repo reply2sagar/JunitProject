@@ -10,7 +10,7 @@ pipeline {
        
         stage ('build'){
             steps {
-                echo $PATH
+                sh "echo $PATH"
                 sh "mvn compile" 
             }
         }
