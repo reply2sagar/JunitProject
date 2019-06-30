@@ -10,7 +10,7 @@ pipeline {
        
         stage ('build'){
             steps {
-                mvn compile 
+                sh "mvn compile" 
             }
         }
         stage ('test'){
