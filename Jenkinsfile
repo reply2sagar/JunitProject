@@ -10,6 +10,7 @@ pipeline {
        
         stage ('build'){
             steps {
+                echo "executing now"
                 sh "mvn compile" 
             }
         }
