@@ -4,15 +4,17 @@ pipeline {
        CXX = "g++-4.9.4"
        LD = "g++-4.9.4"
        ETL_MKL = 'true'
+        PATH = "/usr/local/Cellar/maven/3.6.0/libexec/bin:$PATH"
     }
+    
+    
     stages {
         
        
         stage ('build'){
             steps {
                 sh "whoami"
-                sh "export M2_HOME=/usr/local/Cellar/maven/3.6.0/libexec" 
-                sh "export PATH=$PATH:$M2_HOME/bin"
+               
 
                 sh "mvn compile" 
             }
