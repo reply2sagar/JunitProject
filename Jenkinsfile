@@ -4,7 +4,7 @@ pipeline {
        CXX = "g++-4.9.4"
        LD = "g++-4.9.4"
        ETL_MKL = 'true'
-        //PATH = "/usr/local/Cellar/maven/3.6.0/libexec/bin:$PATH"
+        PATH = "/usr/local/Cellar/maven/3.6.0/libexec/bin:$PATH"
     }
     
     
